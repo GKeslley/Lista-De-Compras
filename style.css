@@ -1,0 +1,102 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+body {
+  display: grid;
+  margin: 50px 0px;
+  background: #f7f7f7;
+}
+
+.content {
+  display: grid;
+  justify-items: center;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 200px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  justify-self: center;
+  margin-bottom: 25px;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.compras {
+  display: grid;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+
+.compras h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.compras input {
+  padding: 5px 2px;
+}
+
+.compras button {
+  background: rgb(0, 195, 255);
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.lista-compras {
+  display: grid;
+  justify-items: center;
+}
+
+.lista-compras button {
+  background: none;
+  border: none;
+  font-size: 0.875rem;
+  padding: 0px 40px;
+}
+
+.divItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.divItem button:nth-child(2) {
+  color: red;
+  font-weight: bold;
+}
+
+.divItem button:nth-child(3) {
+  color: green;
+  font-weight: bold;
+}
+
+.divItem li {
+  margin-left: 40px;
+}
+
+.divItem input {
+  margin-left: 40px;
+  max-width: 20%;
+}
+
+@media (max-width: 700px) {
+  .content {
+    padding: 20px;
+  }
+  .compras input {
+    margin-bottom: 10px;
+  }
+  .compras button {
+    margin-left: 0px;
+  }
+}
